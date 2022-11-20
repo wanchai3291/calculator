@@ -1,1 +1,1 @@
-เครื่องคิดเองโดยใช้ HTML CSS JAVASCRIPT(DOM)
+เครื่องคิดเลขโดยใช้ HTML CSS JAVASCRIPT(DOM)
