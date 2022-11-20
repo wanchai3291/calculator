@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='script.js' defer></script>
+</head>
+
+<body>
+    <div class='wrapper'>
+        <section class='screen'>
+            <div class='previous' data-previous>0</div>
+            <div class="current" data-current>0</div>
+        </section>
+        <section class='calc-btn_row'>
+            <div class='calc_btn_row'>
+                <button class='calc_btn double' data-clear>C</button>
+                <button class='calc_btn' data-delete>del</button>
+                <button class='calc_btn' data-operator>/</button>
+            </div>
+            <div class='calc_btn_row'>
+                <button class='calc_btn' data-number>7</button>
+                <button class='calc_btn' data-number>8</button>
+                <button class='calc_btn' data-number>9</button>
+                <button class='calc_btn' data-operator>x</button>
+            </div>
+            <div class='calc_btn_row'>
+                <button class='calc_btn' data-number>4</button>
+                <button class='calc_btn' data-number>5</button>
+                <button class='calc_btn' data-number>6</button>
+                <button class='calc_btn' data-operator>-</button>
+            </div>
+            <div class='calc_btn_row'>
+                <button class='calc_btn' data-number>1</button>
+                <button class='calc_btn' data-number>2</button>
+                <button class='calc_btn' data-number>3</button>
+                <button class='calc_btn' data-operator>+</button>
+            </div>
+            <div class='calc_btn_row'>
+                <button class='calc_btn' data-number>.</button>
+                <button id="number" class='calc_btn double' data-number>0</button>
+                <button class='calc_btn' data-operator>=</button>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
